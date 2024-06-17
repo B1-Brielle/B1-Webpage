@@ -31,7 +31,7 @@ const Monthly = () => {
               </ul>
               <a
                 href="#"
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-cyan-600 border border-cyan-600 rounded-lg transition duration-200"
+                className="inline-flex shadow-lg justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-cyan-600 border border-cyan-600 rounded-lg transition duration-200"
               >
                 Get Started
               </a>

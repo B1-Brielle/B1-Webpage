@@ -5,30 +5,32 @@ const HeroSection = () => {
   return (
     
     <section id="home" className="flex flex-col items-center mt-6 lg:mt-20">
-      <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-        B1 build tools
-        <span className="bg-gradient-to-r from-cyan-500 to-cyan-800 text-transparent bg-clip-text">
+     <div className="">
+     <h1 className="text-4xl sm:text-5xl lg:text-6xl text-center tracking-wide">
+        Brielle, arete excellence
+        <span className="bg-gradient-to-r from-cyan-400 to-cyan-600 text-transparent bg-clip-text">
           {" "}
-          for developers
+          in work flow appearance.
         </span>
       </h1>
-      <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
+      <p className="mt-10 text-lg text-center text-neutral-500 max-w-6xl">
         Empower your creativity and bring your VR app ideas to life with our
         intuitive development tools. Get started today and turn your imagination
         into immersive reality!
       </p>
-      {/* <div className="flex justify-center my-10">
+      <div className="flex justify-center my-10">
         <a
           href="#"
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+          className="bg-gradient-to-r shadow-lg from-cyan-400 to-cyan-600 py-4 px-6 mx-3 rounded-md"
         >
-          Start for free
+          Get started
         </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-          Documentation
+        <a href="#" className="  py-4 px-6 shadow-lg mx-3 rounded-md border">
+          Contact Us
         </a>
-      </div> */}
-      <div className="flex mt-10 justify-center">
+      </div>
+     </div>
+      {/* <div className="flex mt-10 justify-center">
         <video
           autoPlay
           loop
@@ -47,7 +49,7 @@ const HeroSection = () => {
           <source src={video2} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-      </div>
+      </div> */}
     </section>
   );
 };

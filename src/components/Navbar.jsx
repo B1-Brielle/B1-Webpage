@@ -13,11 +13,12 @@ const Navbar = () => {
   
 
   return (
-    <nav className="sticky top-0 z-50 py-1 backdrop-blur-lg border-b border-neutral-700/80">
+    <nav className="sticky top-0 z-50 backdrop-blur-lg shadow-lg border-neutral-700/80">
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-24 w-24 mr-2 cursor-pointer" src={logo} alt="Logo" />
+            <img className="h-20 w-20 mr-2 cursor-pointer" src={logo} alt="Logo" />
+            <h1 className="text-3xl ">Brielle</h1>
           </div>
           <ul className="hidden text-lg lg:flex ml-14 py-6 space-x-16">
             {navItems.map((item, index) => (
@@ -32,7 +33,7 @@ const Navbar = () => {
             </a> */}
             <a
               href="#"
-              className="bg-gradient-to-r text-lg from-cyan-600 to-cyan-800 py-2 px-4 rounded-md"
+              className="bg-gradient-to-r shadow-lg text-lg from-cyan-400 to-cyan-600 py-2 px-4 rounded-md"
             >
               Get Started
             </a>
@@ -44,7 +45,7 @@ const Navbar = () => {
           </div>
         </div>
         {mobileDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+          <div className="fixed right-0 z-20 bg-gray-100 shadow-lg w-full p-12 flex flex-col justify-center items-center lg:hidden">
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
@@ -58,9 +59,9 @@ const Navbar = () => {
               </a> */}
               <a
                 href="#"
-                className="py-2 px-3 rounded-md bg-gradient-to-r from-cyan-500 to-cyan-800"
+                className="py-2 px-3 rounded-md bg-gradient-to-r from-cyan-400 to-cyan-600"
               >
-                Create an account
+                Get Started
               </a>
             </div>
           </div>

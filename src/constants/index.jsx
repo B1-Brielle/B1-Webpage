@@ -14,7 +14,7 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
   { label: "Home", href: "#home" },
-  { label: "Features", href: "#feature" },
+  { label: "Services", href: "#services" },
   { label: "Workflow", href: "#workflow" },
   { label: "Pricing", href: "#pricing" },
 ];
@@ -58,24 +58,24 @@ export const testimonials = [
   },
 ];
 
-export const features = [
+export const services = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Brand Design",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "We Carefully create a vibrant brand image that can resonate with your Market Demography.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Content Creation",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "We Help you to Generate, Film and edit your Video and Image Content with very high retention rates.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Sales Automation",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "We help you to Automate your sales process bringing all your customers to one Sales point.",
   },
   {
     icon: <BatteryCharging />,
