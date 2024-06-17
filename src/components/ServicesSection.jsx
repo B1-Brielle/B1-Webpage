@@ -4,7 +4,7 @@ const ServicesSection = () => {
   return (
     <section id="services" className="relative mt-20 border-b pb-5 border-neutral-800 min-h-[800px]">
       <div className="text-center">
-        <span className=" text-cyan-500 rounded-full h-6 text-2xl  font-medium px-2 py-1 uppercase">
+        <span className=" text-cyan-500 rounded-full h-6 text-2xl  font-medium  py-1 uppercase">
           Services
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
@@ -14,9 +14,9 @@ const ServicesSection = () => {
           </span>
         </h2>
       </div>
-      <div className="flex gap-4 flex-wrap mt-10 lg:mt-20 ">
+      <div className="flex flex-wrap mt-10 lg:mt-20 ">
         {services.map((services, index) => (
-          <div key={index} className="w-full border border-neutral-700 rounded-xl pb-8 pl-2 pt-6 pr-2 sm:w-1/2 text-xl  lg:w-1/3">
+          <div key={index} className="w-full border-neutral-700 rounded-xl sm:w-1/2 text-xl  md:w-1/3">
             <div className="flex">
               <div className="flex mx-2 h-10 w-10 p-2   text-cyan-700 justify-center items-center rounded-full">
                 {services.icon}
@@ -29,9 +29,9 @@ const ServicesSection = () => {
               </div>
               
             </div>
-            <a href="#" className="shadow-lg   py-3 px-4 mx-3 rounded-md border">
+            {/* <a href="#" className="shadow-lg   py-3 px-4 mx-3 rounded-md border">
              Our Pricing
-            </a>
+            </a> */}
           </div>
         ))}
       </div>
